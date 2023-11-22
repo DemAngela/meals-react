@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 100%;
+}
+
+/*=================== Header*/
+
+.header {
+    background-color: #142021;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.linkH {
+    text-decoration: none;
+    color: #bca783;
+    font-family: 'Lato', sans-serif;
+}
+
+/*===================*/
+
+.imgSection {
+    background-image: linear-gradient(rgba(24, 24, 20, 0.78), rgba(24, 24, 20, 0.78)),
+    url("../assets/jonathan-pielmayer-Gn64mz9hTqE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    background-color: rgba(61, 74, 84, 0.63);
+    padding: 80px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #6c614a;
+}
+
+/*===================*/
+
+.mainPage {
+    padding: 40px;
+    background-color: #142021;
+}
+
+/*===================*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    background-color: #286231;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px 0px rgba(12, 20, 26, 0.55)
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.mealTitle {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+h4 {
+    color: #bca783;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+p {
+    color: #bca783;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+/*=====================*/
+
+.SearchWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchInput {
+    width: 300px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    border: none;
+    background-color: #67797d;
+    font-size: 20px;
+    text-align: center;
+    color: #bca783;
+    font-family: 'Lato', sans-serif;
+}
+
+.SearchInput, textarea {
+    outline: none;
+    border: none;
+}
+
+.SearchBtn {
+    width: 300px;
+    margin-bottom: 80px;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    border: none;
+    background-color: #3d4a54;
+    cursor: pointer;
+    font-size: 20px;
+    color: #142021;
+    font-family: 'Lato', sans-serif;
+}
+
+.SearchBtn:hover {
+    color: black;
+    background-color: #6d907f;
+}
+
+h6  {
+    color: #bca783;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/*=========================*/
+
+.footer {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #142021;
+    border-top: 1px solid #111;
+}
+
+.footerWrapper {
+    width: 600px;
+}
+
+.footerInner {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
