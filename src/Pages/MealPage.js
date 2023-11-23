@@ -13,11 +13,11 @@ const MealPage = () => {
         const newIngredients = [];
         for (const key in meal) {
             if (key.startsWith('strIngredient') && meal[key] !== null && meal[key] !== '') {
-                const ingredientNumber = key.slice(13); //
-                const measure = meal[`strMeasure${ingredientNumber}`]; // Get the corresponding measure
+                const ingredientNumber = key.slice(13);
+                const measure = meal[`strMeasure${ingredientNumber}`];
                 newIngredients.push({
                     ingredient: meal[key],
-                    measure: measure || '' // Set an empty string if measure is null or undefined
+                    measure: measure || ''
                 });
             }
         }
