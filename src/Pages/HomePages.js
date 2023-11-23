@@ -14,7 +14,6 @@ const HomePages = () => {
 
     return (
         <div className={'body'}>
-            <Header />
             <section className={'imgSection'}>
                 <div className={'title'}>
                     <h1>Home page</h1>
@@ -25,7 +24,6 @@ const HomePages = () => {
                     <MealList meals={meals}/>
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }

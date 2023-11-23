@@ -6,7 +6,6 @@ import Footer from "../Components/Footer";
 const Search = () => {
     return (
         <div className={'body'}>
-            <Header />
             <section className={'imgSection'}>
                 <div className={'title'}>
                     <h1>Search</h1>
@@ -19,7 +18,6 @@ const Search = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }
